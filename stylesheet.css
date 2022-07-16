@@ -3,8 +3,10 @@
   margin: 0;
 }
 
+
 header{
   background-color: #2E948A;
+  margin-bottom: 200px;
 }
 
 nav{
@@ -28,6 +30,29 @@ nav a{
 
 }
 
+footer{
+  background-color: #2E948A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 53px 137px 52px 128px;
+}
+
+footer a{
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer ul{
+  margin-right: 200px;
+  padding: 0;
+}
+
 .flex{
   justify-content: flex;
 
@@ -35,5 +60,20 @@ nav a{
 
 .container{
   display: flex;
-  justify-content: space-around;
+  max-width: 1183px;
+}
+
+.btn-footer{
+  border: 2px solid #FFFFFF;
+  border-radius: 62px;
+  padding: 14px 79px;
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.btn-footer2{
+  border: 2px solid #FFFFFF;
+  border-radius: 62px;
+  padding: 14px 79px;
+  text-align: center;
 }
