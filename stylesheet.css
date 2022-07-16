@@ -31,6 +31,15 @@ color: #FF4081;
 
 h2{
   font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 50px;
+
+  color: #009688;
+}
+
+h3{
+  font-style: normal;
 font-weight: 700;
 font-size: 25px;
 line-height: 29px;
@@ -81,7 +90,11 @@ footer ul{
   padding: 0;
 }
 
-.flex{
+.display-flex{
+  display: flex;
+  }
+
+.cards{
   display: flex;
   justify-content: space-between;
 }
@@ -127,7 +140,7 @@ footer ul{
   padding: 109px 0 119px 0;
 }
 
-.card h2{
+.card h3{
   margin: 45px 0 23px 0;
 }
 
@@ -145,6 +158,44 @@ footer ul{
   border-radius: 62px;
   color: #FFFFFF;
   padding: 15px 50px;
+}
+
+.about-cards{
+  margin-bottom: 155px;
+}
+
+.about-cards h2{
+  margin: 119px 0 103px 0;
+}
+
+.card-line{
+  margin-bottom: 87px;
+}
+
+.align-itens{
+  align-items: center;
+}
+
+.about{
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1087px;
+
+}
+
+.about img{
+  margin-right: 23px;
+}
+
+.about p{
+  text-align: left;
+}
+
+.dif-wight{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 10px;
 }
 
 .btn-footer{
