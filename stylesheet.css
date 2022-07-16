@@ -198,6 +198,56 @@ footer ul{
   margin-top: 10px;
 }
 
+.bottom-content{
+  background-color: #F6F6F6;
+}
+
+.bottom-content h2{
+  text-transform: uppercase;
+  padding-top: 92px;
+  margin-bottom: 73px;
+}
+
+.bottom-content a{
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+color: #FF4081;
+border: 2px solid #FF4081;
+border-radius: 62px;
+padding: 14px 41px;
+display: inline-block
+}
+
+.bottom-link{
+text-align: center;
+padding-bottom: 53px;
+}
+
+.content-cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.content-card{
+  margin-bottom: 101px;
+}
+
+.content-card h3{
+font-weight: 700;
+font-size: 27px;
+line-height: 31px;
+color: #009688;
+margin-top: 20px;
+}
+
+.content-card h3, p{
+  text-align: left;
+}
+
 .btn-footer{
   border: 2px solid #FFFFFF;
   border-radius: 62px;
