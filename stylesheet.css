@@ -1,12 +1,13 @@
 *{
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
+  text-decoration: none;
 }
+
 
 
 header{
   background-color: #2E948A;
-  margin-bottom: 200px;
 }
 
 nav{
@@ -18,6 +19,14 @@ nav{
 
 ul{
   word-spacing: 42px;
+}
+
+h1{
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 69px;
+color: #FF4081;
 }
 
 nav a{
@@ -54,13 +63,40 @@ footer ul{
 }
 
 .flex{
-  justify-content: flex;
+  display: flex;
 
 }
 
 .container{
-  display: flex;
   max-width: 1183px;
+  margin: 0 auto;
+}
+
+.hero-section{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 125px 0 66px 0;
+}
+
+.hero-content h2{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 31px;
+  color: #555555;
+  margin: 19px 0 38px 0;
+}
+
+.hero-content a{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 31px;
+  color: #FF4081;
+  padding: 10px 26px 16px 26px;
+  border: 2px solid #FF4081;
+  border-radius: 62px;
+
 }
 
 .btn-footer{
