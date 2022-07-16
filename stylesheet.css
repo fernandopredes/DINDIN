@@ -1,0 +1,39 @@
+*{
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+
+header{
+  background-color: #2E948A;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 103px 20px 82px;
+}
+
+ul{
+  word-spacing: 42px;
+}
+
+nav a{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FDFDFD;
+
+}
+
+.flex{
+  justify-content: flex;
+
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
