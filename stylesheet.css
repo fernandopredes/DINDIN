@@ -160,6 +160,17 @@ footer ul{
   padding: 15px 50px;
 }
 
+.green-btn{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #419488;
+  border-radius: 62px;
+  padding: 14px 48px;
+}
+
 .about-cards{
   margin-bottom: 155px;
 }
@@ -246,6 +257,33 @@ margin-top: 20px;
 
 .content-card h3, p{
   text-align: left;
+}
+
+.cursos h4 {
+  color: #555555;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.cursos-title{
+  margin: 95px 0;
+}
+
+.curso{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.curso h3{
+  text-align: left;
+  margin-bottom: 37px;
+}
+
+.curso p{
+  margin-bottom: 69px;
 }
 
 .btn-footer{
