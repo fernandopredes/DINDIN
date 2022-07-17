@@ -278,7 +278,6 @@ margin-top: 20px;
 .curso{
   display: flex;
   justify-content: space-between;
-
 }
 
 .curso h3{
@@ -295,6 +294,45 @@ margin-top: 20px;
   padding: 107px 0 93px 0;
   border-top: 5px solid #C4C4C4;
   border-bottom: 5px solid #C4C4C4;;
+}
+
+.curso-page{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 93px;
+}
+
+.curso-page p{
+  max-width: 420px;
+  text-align: left;
+  margin-top: 22px;
+}
+
+.curso-page img{
+  margin-bottom: 81px;
+}
+
+.aula{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aula h3{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  color: #FF4081;
+  text-align: left;
+  margin-bottom: 26px;
+}
+
+.aula p{
+  max-width: 500px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: left;
 }
 
 .btn-footer{
