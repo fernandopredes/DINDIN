@@ -144,7 +144,12 @@ footer ul{
   padding: 10px 26px 16px 26px;
   border: 2px solid #FF4081;
   border-radius: 62px;
+  transition: 0.3s;
+}
 
+.hero-content a:hover{
+  background-color: #FF4081;
+  color: #FFFFFF;
 }
 
 .main-cards{
@@ -175,6 +180,8 @@ footer ul{
   color: #FFFFFF;
   padding: 15px 50px;
 }
+
+
 
 .green-btn{
   font-weight: 400;
@@ -244,7 +251,13 @@ color: #FF4081;
 border: 2px solid #FF4081;
 border-radius: 62px;
 padding: 14px 41px;
-display: inline-block
+display: inline-block;
+transition: 0.3s;
+}
+
+.bottom-content a:hover{
+  background-color: #FF4081;
+  color: #FFFFFF;
 }
 
 .bottom-link{
