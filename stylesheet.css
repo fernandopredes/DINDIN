@@ -4,6 +4,22 @@
   text-decoration: none;
 }
 
+form, textarea, input{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  text-transform: lowercase;
+  color: #58555D;
+}
+
+input, textarea{
+  max-width: 493px;
+  border: 1px solid #686868;
+  border-radius: 7px;
+}
 
 
 header{
@@ -358,4 +374,65 @@ margin-top: 20px;
   border-radius: 62px;
   padding: 14px 79px;
   text-align: center;
+}
+
+.contato{
+  padding: 105px 0 101px 0;
+}
+
+.contato h2{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #FF4081;
+  text-transform: none;
+  margin-bottom: 44px;
+
+}
+
+#text{
+  min-height: 193px;
+  min-width: 493px;
+  resize: none;
+  padding-top: 15px;
+  padding-left: 31px;
+  border-radius: 7px;
+  outline: none;
+  margin-bottom: 15px;
+
+}
+
+#nome{
+  min-height: 32px;
+  min-width: 493px;
+  padding-left: 31px;
+  border-radius: 7px;
+
+}
+
+#email{
+  min-height: 32px;
+  min-width: 493px;
+  margin: 15px 0 14px 0;
+  padding-left: 31px;
+  border-radius: 7px;
+}
+
+#button-form{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+text-transform: lowercase;
+color: #FFFFFF;
+background-color: #FF4081;
+border: none;
+padding: 5px 30px;
+border-radius: 50px;
+margin-top: 16.4px;
+cursor: pointer;
 }
