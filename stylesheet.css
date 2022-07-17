@@ -296,6 +296,11 @@ margin-top: 20px;
   border-bottom: 5px solid #C4C4C4;;
 }
 
+.aula.gray-border{
+  margin: 73px 0 75px 0;
+  padding: 75px 0 73px 0;
+}
+
 .curso-page{
   display: flex;
   justify-content: space-evenly;
@@ -310,6 +315,11 @@ margin-top: 20px;
 
 .curso-page img{
   margin-bottom: 81px;
+}
+
+.aulas{
+  padding: 75px 0;
+  background-color:  #F7F7F7;
 }
 
 .aula{
