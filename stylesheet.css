@@ -376,6 +376,12 @@ margin-top: 20px;
   text-align: center;
 }
 
+.contato-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .contato{
   padding: 105px 0 101px 0;
 }
