@@ -259,6 +259,10 @@ margin-top: 20px;
   text-align: left;
 }
 
+.cursos{
+  margin-bottom: 202px;
+}
+
 .cursos h4 {
   color: #555555;
   font-style: normal;
@@ -284,6 +288,13 @@ margin-top: 20px;
 
 .curso p{
   margin-bottom: 69px;
+}
+
+.gray-border{
+  margin: 68px 0 93px 0;
+  padding: 107px 0 93px 0;
+  border-top: 5px solid #C4C4C4;
+  border-bottom: 5px solid #C4C4C4;;
 }
 
 .btn-footer{
