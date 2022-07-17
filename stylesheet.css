@@ -263,7 +263,7 @@ margin-top: 20px;
   margin-bottom: 202px;
 }
 
-.cursos h4 {
+.cursos-title h4 {
   color: #555555;
   font-style: normal;
   font-weight: 400;
@@ -272,7 +272,7 @@ margin-top: 20px;
 }
 
 .cursos-title{
-  margin: 95px 0;
+  margin: 95px 0 95px 10vw;
 }
 
 .curso{
