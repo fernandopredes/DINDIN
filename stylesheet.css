@@ -560,6 +560,50 @@ cursor: pointer;
   footer ul, .footer-right{
     display: none;
   }
+
+
+}
+
+@media (max-width: 1116px){
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 120px;
+    grid-row-gap: 100px;
+  }
+  .grid h3, p{
+    text-align: center;
+
+  }
+  .post-center{
+    text-align: center;
+
+  }
+
+  .post-center img{
+    margin-top: 25px;
+  }
+
+  .post-center a{
+    max-width: 400px;
+    margin-bottom: 25px;
+    text-align: center;
+
+
+  }
+
+}
+
+@media (max-width: 964px){
+  .contato-flex img{
+    display: none;
+  }
+
+  .container{
+    display: inline;
+    text-align: center;
+  }
 }
 
 @media (max-width: 790px) {
@@ -642,8 +686,27 @@ cursor: pointer;
     margin-top: 10px;
   }
 
-  .contato-flex img{
-    display: none;
+  .blog-top{
+    display: flex;
+  }
+  .blog-top h2{
+    margin-top: 25px;
+  }
+  .blog-top p{
+    display: inline-block;
+    max-width: 400px;
+  }
+  .blog-top img{
+    min-width: 50%;
   }
 
+  .grid h3, p{
+    text-align: center;
+    display: inline-block;
+  }
+
+  .grid p{
+    max-width: 400px;
+    margin-bottom: 25px;
+  }
 }
