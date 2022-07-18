@@ -721,7 +721,10 @@ cursor: pointer;
     min-width: 50%;
   }
 
-  .grid h3, p{
+  .grid img{
+    max-width: 100%;
+  }
+  .grid h3, p, a{
     text-align: center;
     display: inline-block;
   }
@@ -731,5 +734,13 @@ cursor: pointer;
     margin-bottom: 25px;
   }
 
+  .cards .card h3, p{
+    display: block;
+  }
+
+
+}
+
+@media (max-width: 690px){
 
 }
