@@ -601,6 +601,15 @@ cursor: pointer;
     text-align: center;
   }
 
+  .media-padding{
+    margin-bottom: 50px;
+  }
+
+  .curso img{
+    min-width: 50%;
+
+  }
+
   footer{
     display: block;
     text-align: center;
