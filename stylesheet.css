@@ -568,6 +568,11 @@ cursor: pointer;
     text-align: center;
   }
 
+  footer{
+    display: block;
+    text-align: center;
+  }
+
   nav img{
     width: 50vw;
     text-align: center;
@@ -637,10 +642,8 @@ cursor: pointer;
     margin-top: 10px;
   }
 
-  footer{
-    display: block;
-    text-align: center;
+  .contato-flex img{
+    display: none;
   }
-
 
 }
