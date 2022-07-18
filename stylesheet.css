@@ -792,12 +792,25 @@ cursor: pointer;
   }
 }
 
+@media (max-width: 560px){
+
+  footer{
+    display: none;
+  }
+  }
+
 @media (max-width: 320px){
   img{
     max-width: 100%;
   }
 
-  footer{
-    display: none;
+  .hero-section h1{
+    font-size: 35px;
+    line-height: normal;
+  }
+
+  .hero-section h2{
+    font-size: 25px;
+    line-height: normal;
   }
   }
