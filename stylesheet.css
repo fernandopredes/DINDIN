@@ -4,6 +4,10 @@
   text-decoration: none;
 }
 
+iframe{
+  max-width: 100%;
+}
+
 form, textarea, input{
   font-family: 'Nunito';
   font-style: normal;
