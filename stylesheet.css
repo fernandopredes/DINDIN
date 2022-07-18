@@ -805,11 +805,24 @@ cursor: pointer;
   .curso p{
     text-align: left;
   }
+  #nome, #email, #text{
+    min-width: 350px;
+  }
+  }
+
+@media (max-width: 460px){
+  .blog-top img{
+    display: none;
+  }
   }
 
 @media (max-width: 320px){
   img{
     max-width: 100%;
+  }
+
+  #nome, #email, #text{
+    min-width: 200px;
   }
 
   .hero-section h1{
@@ -821,4 +834,5 @@ cursor: pointer;
     font-size: 25px;
     line-height: normal;
   }
+
   }
