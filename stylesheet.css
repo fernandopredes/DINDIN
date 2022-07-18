@@ -610,6 +610,33 @@ cursor: pointer;
 
   }
 
+  .curso-page{
+    display: block;
+
+  }
+  .curso-page h1{
+    font-size: 40px;
+    line-height: normal;
+    margin: 25px 0 25px 0;
+  }
+
+  .curso-page p{
+    display: inline-block;
+    text-align: center;
+    max-width: 450px;
+    margin-bottom: 25px;
+  }
+
+  .aula{
+    display: block;
+    text-align: -moz-center;
+  }
+
+  .aula h3{
+    text-align: center;
+    margin-top: 10px;
+  }
+
   footer{
     display: block;
     text-align: center;
